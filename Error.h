@@ -4,6 +4,7 @@
 
 #include<stdio.h>
 
+/* estrutura dos erros */
 typedef enum ErrorCode
 {
 	createSocket,
@@ -19,6 +20,7 @@ typedef enum ErrorCode
 	openDir
 } ErrorCode;
 
+/* mensagens de erro para cada tipo */
 class Error
 {
 	public:
