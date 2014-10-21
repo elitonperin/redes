@@ -156,15 +156,32 @@ char* HTTP::doGetFile()
 char* HTTP::doGetDirectory()
 {
 	char* responseText = new char[BUFFSIZE];
-	cout << "entrei na doGetDirectory\n";
+	//cout << "entrei na doGetDirectory\n";
 
 	DirectoryManager directoryManager;
 	directoryManager.openDirectory(requestHeader->requestURI);
-	directoryManager.printDirectory();
-	//directoryManager.createHTML();
+	//directoryManager.printDirectory();
+	string html =  directoryManager.createHTML();
 	directoryManager.closeDirectory();
+	char length[15];
+	sprintf(length, "%d", static_cast<int>(html.length()));
+	string crlf = "\r\n";
 
-	ifstream file(requestHeader->requestURI.c_str());
+	string response;
+
+	response = "HTTP/1.1 200 OK";
+	response += crlf;
+	response += "Content-Type: text/html";
+	response += crlf;
+	response += "Content-Length: ";
+	response += length;
+	response += crlf;
+	response += crlf;
+	response += html;
+
+
+	sprintf(responseText,"%s", response.c_str());
+	cout << responseText<<'\n';
 
 	return responseText;
 }
