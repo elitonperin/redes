@@ -161,7 +161,7 @@ char* HTTP::doGetDirectory()
 	DirectoryManager directoryManager;
 	directoryManager.openDirectory(requestHeader->requestURI);
 	directoryManager.printDirectory();
-	directoryManager.createHTML();
+	//directoryManager.createHTML();
 	directoryManager.closeDirectory();
 
 	ifstream file(requestHeader->requestURI.c_str());

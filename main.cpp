@@ -43,6 +43,10 @@ Para executar: ./main [porta]
 #include "ParserHTTP.h"
 #endif
 
+#ifndef _ServerLog
+#include "ServerLog.h"
+#endif
+
 #define SA struct sockaddr
 
 int main(int argc, char** argv)
@@ -102,9 +106,6 @@ int main(int argc, char** argv)
 		{
 			n = recv(connfd, buffer, BUFFSIZE, 0);
 
-			cout << "\nN " << n << endl;
-			cout << "\nSTRLEN " << strlen(buffer) << endl;
-
 			if(n != -1)
 			{
 				for (int i = 0; i < n; i++)
@@ -125,7 +126,11 @@ int main(int argc, char** argv)
 		printf("%s", receivedDataBuffer);
 
 		RequestHeader* requestHeader = ParserHTTP::execute(receivedDataBuffer);
+
+		ServerLog::saveLog(requestHeader, inet_ntoa(client.sin_addr));
+
 		HTTP* http = new HTTP(requestHeader);
+
 		char* responseText = http->execute(requestHeader);
 
 		/*Map::iterator it;
