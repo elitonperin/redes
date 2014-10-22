@@ -400,3 +400,219 @@ Method : POST
 URI Requested : /home/douglas/b.html
 Date and Time : 21-10-2014 - 22:51:28
 =======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/a.html
+Date and Time : 22-10-2014 - 08:39:10
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 22-10-2014 - 08:39:10
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/a.html
+Date and Time : 22-10-2014 - 08:39:47
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 22-10-2014 - 08:39:47
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/la.html
+Date and Time : 22-10-2014 - 08:57:49
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/Downloads/1.jpg
+Date and Time : 22-10-2014 - 08:57:49
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/Downloads/2.jpg
+Date and Time : 22-10-2014 - 08:57:57
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 22-10-2014 - 08:58:00
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 22-10-2014 - 08:58:00
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/a.html
+Date and Time : 22-10-2014 - 08:59:16
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 22-10-2014 - 08:59:16
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/a.html
+Date and Time : 22-10-2014 - 08:59:49
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 22-10-2014 - 08:59:50
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 09:00:11
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/a.html
+Date and Time : 22-10-2014 - 09:04:38
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 22-10-2014 - 09:04:38
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/a.html
+Date and Time : 22-10-2014 - 09:07:08
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 22-10-2014 - 09:07:09
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/a.html
+Date and Time : 22-10-2014 - 09:07:46
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 22-10-2014 - 09:07:46
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/a.html
+Date and Time : 22-10-2014 - 09:18:27
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : POST
+URI Requested : /home/douglas/b.html
+Date and Time : 22-10-2014 - 09:18:42
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/a.html
+Date and Time : 22-10-2014 - 09:18:55
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : POST
+URI Requested : /home/douglas/b.html
+Date and Time : 22-10-2014 - 09:19:04
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/
+Date and Time : 22-10-2014 - 09:19:52
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/la.html
+Date and Time : 22-10-2014 - 09:20:26
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/Downloads/1.jpg
+Date and Time : 22-10-2014 - 09:20:26
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/Downloads/2.jpg
+Date and Time : 22-10-2014 - 09:20:27
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/ArticleBrowser/ArticleBrowser.html
+Date and Time : 22-10-2014 - 09:20:58
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/ArticleBrowser/ArticleBrowser_edgePreload.js
+Date and Time : 22-10-2014 - 09:20:58
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/ArticleBrowser/ArticleBrowser.html
+Date and Time : 22-10-2014 - 09:21:52
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/ArticleBrowser/ArticleBrowser_edgePreload.js
+Date and Time : 22-10-2014 - 09:21:52
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/a.html
+Date and Time : 22-10-2014 - 09:22:54
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : POST
+URI Requested : /home/douglas/b.html
+Date and Time : 22-10-2014 - 09:22:57
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/douglas/a.html
+Date and Time : 22-10-2014 - 09:27:33
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : POST
+URI Requested : /home/douglas/b.html
+Date and Time : 22-10-2014 - 09:27:40
+=======================================================

@@ -142,22 +142,25 @@ int main(int argc, char** argv)
 		}
 		cout << '\n';
 		*/
+		cout << "\nResponse: \n" << responseText << endl;
+
 		n = 0;
 		int i;
 		int totalSent = 0;
-		char* auxStr = new char[1024000];
+		char* auxStr = new char[BUFFSIZE];
 		do
 		{
-			strcpy(auxStr, "");
-			for (i = totalSent; i < http->responseLength; i++)
-				auxStr[i - totalSent] = responseText[i];
-
+			bzero(auxStr, BUFFSIZE);
 			if ((http->responseLength - totalSent) > BUFFSIZE)
 			{
+				for (i = totalSent; i < (totalSent + BUFFSIZE); i++)
+					auxStr[i - totalSent] = responseText[i];
 				n = send(connfd, auxStr, BUFFSIZE, 0);
 			}
 			else
 			{
+				for (i = totalSent; i < (http->responseLength - totalSent); i++)
+					auxStr[i - totalSent] = responseText[i];
 				n = send(connfd, auxStr, (http->responseLength - totalSent), 0);
 			}
 

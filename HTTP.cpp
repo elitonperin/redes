@@ -6,7 +6,7 @@
 
 char* HTTP::doBadRequest()
 {
-	strcpy(responseText, "HTTP/1.1 400 Bad Request\r\nContent-type: text/html\r\n\r\nBad Requestd");
+	strcpy(responseText, "HTTP/1.1 400 Bad Request\r\nContent-type: text/html\r\n\r\nBad Request");
 	return responseText;
 }
 
@@ -34,7 +34,7 @@ char* HTTP::doGet()
 		return doGetDirectory();
 	}
 
-	return doBadRequest();
+	return doNotFound();
 }
 
 //todo:
@@ -47,7 +47,7 @@ char* HTTP::doPost()
 	char* htmlResponse = new char [500];
 	string ws = " ";
 
-	strcat(htmlResponse, "<html><body>");
+	strcpy(htmlResponse, "<html><body>");
 
 	do
 	{
