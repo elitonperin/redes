@@ -24,8 +24,8 @@
 #include <sys/stat.h>
 #include <iostream>
 #include <stdlib.h>
-
-#define BUFFSIZE 1500
+/* tamaho do buff size */
+#define BUFFSIZE 5000000
 
 using namespace std;
 
@@ -39,40 +39,43 @@ class HTTP
 		char* responseText;
 
 		char* fileData;
-
+		/* tamanhos */
 		HTTP(RequestHeader* requestHeader)
 		{
 			this->requestHeader = requestHeader;
 			this->responseText = new char[99999999];
 			this->fileData = new char[99999999];
 		}
-
+		/* http GET e POST */
 		char* execute(RequestHeader* requestHeader)
 		{
 
 			if(requestHeader->HTTPVersion == "HTTP/1.1")
 			{
-
+				/* GET */
 				if(requestHeader->method == "GET")
 				{
 					return this->doGet();
 				}
+				/* POST */
 				else if(requestHeader->method == "POST")
 				{
 					return this->doPost();
 				}
+				/* se nao der, bad request */
 				else
 				{
 					Error::printError(badRequest);
 					return this->doBadRequest();
 				}
 			}
+			/* se nao der, versao nao suportada */
 			else
 			{
 				Error::printError(versionNotSupported);
 				return doVersionNotSupported();
 			}
-
+			/* bad request */
 			Error::printError(badRequest);
 			return doBadRequest();
 		}

@@ -11,10 +11,12 @@
 class ServerLog
 {
 	public:
+		/* guradat o log das requisicoes */
 		static void saveLog(RequestHeader* requestHeader, char* clientIP)
 		{
+			/* onde vai ser salvo o log*/
 			fstream logFile("serverLog.txt", ios:: out | ios::app);
-
+			/* as informacoes que vao ser registradas no log */
 			if (logFile.is_open())
 			{
 				logFile << "Request Received" << endl;
@@ -27,7 +29,7 @@ class ServerLog
 				logFile.close();
 			}
 		}
-
+		/* funcao para pega a dota e hora local */
 		static string currentDateTime() {
 		    time_t     now = time(0);
 		    struct tm  tstruct;
