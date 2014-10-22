@@ -1342,3 +1342,687 @@ Method : GET
 URI Requested : /home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www//home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www//nova..
 Date and Time : 22-10-2014 - 13:41:22
 =======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www//1.jpg
+Date and Time : 22-10-2014 - 14:10:47
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www//Resumo.pdf
+Date and Time : 22-10-2014 - 14:10:56
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www//Htmls/
+Date and Time : 22-10-2014 - 14:10:58
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www//home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www//Htmls/index.html
+Date and Time : 22-10-2014 - 14:11:01
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:25:50
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www//Htmls/
+Date and Time : 22-10-2014 - 14:25:51
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:27:00
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:27:06
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www/Htmls/
+Date and Time : 22-10-2014 - 14:27:14
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:27:18
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:28:05
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 22-10-2014 - 14:28:07
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 22-10-2014 - 14:28:28
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 22-10-2014 - 14:29:28
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 22-10-2014 - 14:32:42
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/index.html
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/css/style.css
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/css/social-icons.css
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/jquery-1.5.1.min.js
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/custom.js
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/jquery.backgroundPosition.js
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/poshytip-1.0/src/tip-twitter/tip-twitter.css
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/poshytip-1.0/src/tip-yellowsimple/tip-yellowsimple.css
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/css/superfish.css
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/css/jquery.tweet.css
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/prettyPhoto/css/prettyPhoto.css
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/css/tabs.css
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/poshytip-1.0/src/jquery.poshytip.min.js
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/superfish-1.4.8/js/hoverIntent.js
+Date and Time : 22-10-2014 - 14:32:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /1.jpg
+Date and Time : 22-10-2014 - 14:33:10
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Resumo.pdf
+Date and Time : 22-10-2014 - 14:33:13
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 22-10-2014 - 14:33:15
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/index.html
+Date and Time : 22-10-2014 - 14:33:16
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/css/style.css
+Date and Time : 22-10-2014 - 14:33:16
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/css/social-icons.css
+Date and Time : 22-10-2014 - 14:33:16
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/jquery-1.5.1.min.js
+Date and Time : 22-10-2014 - 14:33:16
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/custom.js
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/jquery.backgroundPosition.js
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/poshytip-1.0/src/tip-twitter/tip-twitter.css
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/poshytip-1.0/src/tip-yellowsimple/tip-yellowsimple.css
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/css/superfish.css
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/css/jquery.tweet.css
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/prettyPhoto/css/prettyPhoto.css
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/css/tabs.css
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/poshytip-1.0/src/jquery.poshytip.min.js
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/superfish-1.4.8/js/hoverIntent.js
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/superfish-1.4.8/js/superfish.js
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/superfish-1.4.8/js/supersubs.js
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/tweet/jquery.tweet.js
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/prettyPhoto/js/jquery.prettyPhoto.js
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/slides.min.jquery.js
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/js/tabs.js
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/img/logo.png
+Date and Time : 22-10-2014 - 14:33:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/img/dummies/04.jpg
+Date and Time : 22-10-2014 - 14:33:18
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/img/dummies/01.jpg
+Date and Time : 22-10-2014 - 14:33:18
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:33:53
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /nova/
+Date and Time : 22-10-2014 - 14:33:54
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /nova/1.jpg
+Date and Time : 22-10-2014 - 14:33:56
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /1.jpg
+Date and Time : 22-10-2014 - 14:34:00
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Resumo.pdf
+Date and Time : 22-10-2014 - 14:34:02
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /nova/
+Date and Time : 22-10-2014 - 14:34:04
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /nova/1.jpg
+Date and Time : 22-10-2014 - 14:34:05
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:34:08
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 22-10-2014 - 14:34:09
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:35:11
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 22-10-2014 - 14:35:16
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/a.html
+Date and Time : 22-10-2014 - 14:35:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/a.jpg
+Date and Time : 22-10-2014 - 14:35:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/a.html
+Date and Time : 22-10-2014 - 14:35:20
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/a.jpg
+Date and Time : 22-10-2014 - 14:35:20
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /1.jpg
+Date and Time : 22-10-2014 - 14:35:29
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 22-10-2014 - 14:35:46
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/a.html
+Date and Time : 22-10-2014 - 14:35:49
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/a.jpg
+Date and Time : 22-10-2014 - 14:35:49
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /nova/
+Date and Time : 22-10-2014 - 14:35:53
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /nova/1.jpg
+Date and Time : 22-10-2014 - 14:35:54
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Resumo.pdf
+Date and Time : 22-10-2014 - 14:36:02
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:37:21
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /01
+Date and Time : 22-10-2014 - 14:37:24
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:37:38
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:38:03
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /01.mp3
+Date and Time : 22-10-2014 - 14:38:05
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:39:21
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /nova/
+Date and Time : 22-10-2014 - 14:40:09
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 22-10-2014 - 14:40:11
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/a.html
+Date and Time : 22-10-2014 - 14:40:13
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/a.jpg
+Date and Time : 22-10-2014 - 14:40:13
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/a.html
+Date and Time : 22-10-2014 - 14:40:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/a.jpg
+Date and Time : 22-10-2014 - 14:40:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/a.html
+Date and Time : 22-10-2014 - 14:41:02
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /1.jpg
+Date and Time : 22-10-2014 - 14:41:02
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 22-10-2014 - 14:41:13
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:20
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:21
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:22
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:22
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:23
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:23
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:24
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:33
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:34
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:34
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:34
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:34
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:35
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:35
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:35
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:36
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:36
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:36
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:36
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:36
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 14:41:36
+=======================================================

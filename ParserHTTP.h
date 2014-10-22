@@ -79,14 +79,7 @@ class ParserHTTP
 			i = ParserHTTP::skipTillLetter(i, header);
 
 
-			path = new char[500];
-		    getcwd(path, 255);
-		    strcat(path, "/www/");
-		    int pathLenght = strlen(path);
-
-			requestURI = path;
-
-			requestURI += word;	
+			requestURI = word;	
 			
 			requestHeader = new RequestHeader(method, requestURI);
 

@@ -56,7 +56,7 @@ class DirectoryManager
 		    return S_ISDIR(buf.st_mode);
 		}
 
-		string createHTML()
+		string createHTML(string path)
 		{
 
 			string html = "<!DOCTYPE html>\n<body>\n<h1>Index of</h1>\n";
@@ -68,7 +68,7 @@ class DirectoryManager
 				cout << directoryInfo->d_name;
 				html+= "<li>";
 				html+="<a href=";
-				html+= directory;
+				html+= path;
 
 				aux = directory + directoryInfo->d_name;
 

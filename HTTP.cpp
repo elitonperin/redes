@@ -27,11 +27,12 @@ char* HTTP::doNotFound()
 char* HTTP::doGet()
 {
 	cout << "Entrei na doGet\n";
-	if(isFile(requestHeader->requestURI.c_str()))
+	string path = this->path + requestHeader->requestURI;
+	if(isFile(path.c_str()))
 	{
 		return doGetFile();
 	}
-	else if(isDirectory(requestHeader->requestURI.c_str()))
+	else if(isDirectory(path.c_str()))
 	{
 		return doGetDirectory();
 	}
@@ -113,7 +114,8 @@ char* HTTP::getData(int* dataLength)
 	cout << "Entrei aqui na getData\n";
 	strcpy(fileData, "");
 	char c;
-	ifstream file(requestHeader->requestURI.c_str(), ios::binary | ios::in);
+	string path = this->path + requestHeader->requestURI;
+	ifstream file(path.c_str(), ios::binary | ios::in);
 
 	file.seekg (0, file.end);
 	*dataLength = file.tellg();
@@ -162,9 +164,9 @@ char* HTTP::doGetFile()
 
 	strcpy(crlf, "\r\n");
 
-	char* type = new char[GetExtension::getExtension(requestHeader->requestURI).size()];
+	char* type = new char[GetExtension::getExtension(path + requestHeader->requestURI).size()];
 
-	strcpy(type, GetExtension::getExtension(requestHeader->requestURI).c_str());
+	strcpy(type, GetExtension::getExtension(path + requestHeader->requestURI).c_str());
 
 	char* contentType = new char[GetExtension::getMIME(type).size()];
 
@@ -220,12 +222,12 @@ char* HTTP::doGetDirectory()
 
 	DirectoryManager directoryManager;
 
-	if(directoryManager.openDirectory(requestHeader->requestURI))
+	if(directoryManager.openDirectory(path + requestHeader->requestURI))
 	{
 		//directoryManager.printDirectory();
 
 		/* pegar dados */
-		string html =  directoryManager.createHTML();
+		string html =  directoryManager.createHTML(requestHeader->requestURI);
 		directoryManager.closeDirectory();
 		char length[15];
 		sprintf(length, "%d", static_cast<int>(html.length()));
