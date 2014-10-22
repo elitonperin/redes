@@ -7,18 +7,21 @@
 char* HTTP::doBadRequest()
 {
 	strcpy(responseText, "HTTP/1.1 400 Bad Request\r\nContent-type: text/html\r\n\r\nBad Request");
+	responseLength = strlen(responseText);
 	return responseText;
 }
 
 char* HTTP::doVersionNotSupported()
 {
 	strcpy(responseText, "HTTP/1.1 505 HTTP Version Not Supported\r\nContent-type: text/html\r\n\r\nVersion Not Supported");
+	responseLength = strlen(responseText);
 	return responseText;
 }
 
 char* HTTP::doNotFound()
 {
 	strcpy(responseText, "HTTP/1.1 404 Not Found\r\nContent-type: text/html\r\n\r\nNot Found");
+	responseLength = strlen(responseText);
 	return responseText;
 }
 
