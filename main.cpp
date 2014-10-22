@@ -25,6 +25,7 @@ Para compilar: g++ -Wall -std=c++11 -o main main.cpp
 Para executar: ./main [porta]
 */
 
+/* define variaveis constantes e seus valores */
 #define MAXPENDING 5
 
 #ifndef _Error
