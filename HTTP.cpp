@@ -84,9 +84,13 @@ char* HTTP::doPost()
 	char* fieldName = new char[80];
 	char* fieldResponse = new char[80];
 	char* htmlResponse = new char [500];
+	char* charDataLength = new char[sizeof("%d")];
 	string ws = " ";
+
+	strcpy(responseText, "HTTP/1.1 200 OK\r\nContent-type: text/html\r\nContent-Length: ");
+
 	/* pegar o response html */
-	strcpy(htmlResponse, "<html><body>");
+	strcpy(htmlResponse, "\r\n\r\n<html><body>");
 	/* enquanto nao atender toda a requisicao */
 	do
 	{
@@ -128,21 +132,19 @@ char* HTTP::doPost()
 	while ((unsigned) i < requestHeader->messageBody.size());
 
 	strcat(htmlResponse, "</body></html>");
-	string pathServidor = this->path + requestHeader->requestURI;
-	ofstream logFile(pathServidor.c_str(), ios:: out);
-	/* registrar log */
-	if (logFile.is_open())
-	{
-		logFile << htmlResponse << endl;
 
-		logFile.close();
-	}
+	sprintf(charDataLength, "%d", (int) strlen(htmlResponse));
+
+	strcat(responseText, charDataLength);
+
+	strcat(responseText, htmlResponse);
 
 	delete [] fieldName;
 	delete [] fieldResponse;
 	delete [] htmlResponse;
+	delete [] charDataLength;
 
-	return doGetFile();
+	return responseText;
 }
 /* pegar a data */
 char* HTTP::getData(int* dataLength)

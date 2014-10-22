@@ -1,0 +1,22 @@
+<html>
+<body>
+<title>Sample of HTML Form Submission</title>
+<H1>Sample Questionnaire</H1>
+<P>Please fill out this questionnaire:
+<FORM METHOD="POST" ACTION="b.html">
+<P>Your name: <INPUT NAME="name" size="48">
+<P>Male <INPUT NAME="gender" TYPE=RADIO VALUE="male">
+<P>Female <INPUT NAME="gender" TYPE=RADIO VALUE="female">
+<P>Number in family: <INPUT NAME="family" TYPE=text>
+<P>Cities in which you maintain a residence:
+<UL>
+<LI>Kent <INPUT NAME="city" TYPE=checkbox VALUE="kent">
+<LI>Miami <INPUT NAME="city" TYPE=checkbox VALUE="miami">
+<LI>Other <TEXTAREA NAME="other" cols=48 rows=4></textarea>
+</UL>
+Nickname: <INPUT NAME="nickname" SIZE="42">
+<P>Thank you for responding to this questionnaire.
+<P><INPUT TYPE=SUBMIT> <INPUT TYPE=RESET>
+</FORM>
+</body>
+</html>

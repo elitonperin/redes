@@ -26,7 +26,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-#define BUFFSIZE 5000000
+#define BUFFSIZE 8000000
 
 using namespace std;
 

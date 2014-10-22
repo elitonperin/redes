@@ -122,7 +122,10 @@ class GetExtension
 			{
 				contentType = "image/png";
 			}
-
+			else if(type == "mp3")
+			{
+				contentType = "audio/mpeg";
+			}
 			else if(type == "rmp")
 			{
 				contentType = "audio/x-pn-realaudio-plugin";
