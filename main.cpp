@@ -165,7 +165,9 @@ int main(int argc, char** argv)
 			}
 
 			if(n != 1)
+			{
 				totalSent += n;
+			}
 			else
 			{
 				Error::printError(sendData);
@@ -175,6 +177,8 @@ int main(int argc, char** argv)
 		}
 		while (totalSent < http->responseLength);
 
+		cout << "\nTOTAL " << totalSent << endl;
+		cout << "\nRESPONSE LENGTH " << http->responseLength << endl;
 		cout << "\nTerminou\n";
 
 		close(connfd);

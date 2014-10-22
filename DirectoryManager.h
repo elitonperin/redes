@@ -52,9 +52,9 @@ class DirectoryManager
 			while((directoryInfo = readdir(directoryPointer)))
 			{
 
-				cout <<directoryInfo->d_name;
+				cout << directoryInfo->d_name;
 				html+= "<li>";
-				html+="<a href=http:/";
+				html+="<a href=";
 				html+= directory;
 				html+= directoryInfo->d_name;
 				html+=">";
@@ -63,7 +63,7 @@ class DirectoryManager
 				html+="\n";
 
 			}
-			html += "<\\ul>\n</body>\n</html>\n";
+			html += "</ul>\n</body>\n</html>\n";
 			return html;
 		}
 
