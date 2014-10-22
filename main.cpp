@@ -1,3 +1,4 @@
+/* bibliotecas utilizadas */
 #include <stdio.h>          /* printf */
 #include <stdlib.h>         /* exit */
 #include <string.h>         /* bzero */
@@ -24,7 +25,7 @@ Pegar:
 Para compilar: g++ -Wall -std=c++11 -o main main.cpp
 Para executar: ./main [porta]
 */
-
+/* define variaveis constantes e seus valores */
 #define MAXPENDING 5
 
 #ifndef _Error
@@ -48,11 +49,11 @@ Para executar: ./main [porta]
 #endif
 
 #define SA struct sockaddr
-
+/* funcao main */
 int main(int argc, char** argv)
 {
 	//ErrorCode error;
-
+	/* variaveis locais */
 	int listenfd, connfd, n;
 	unsigned int clientlen;
 	char buffer[BUFFSIZE];
@@ -60,38 +61,41 @@ int main(int argc, char** argv)
 
 	int receivedDataLength;
 	char* receivedDataBuffer = new char[1024000];
-
+	/* funcao para especificar o tipo do protocolo */
 	if((listenfd = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP)) < 0)
 	{
 		Error::printError(createSocket);
 		delete [] receivedDataBuffer;
 		return 0;
 	}
-
+	/* populando os dados do servidor */
+	/* zera a estrutura que armazena os dados */
 	bzero(&servaddr, sizeof(servaddr));
 	servaddr.sin_family      	= AF_INET;
+	/* aceita qualquer faixa de IP que a maquina possa responder*/
 	servaddr.sin_addr.s_addr 	= htonl(INADDR_ANY);
+	/* define a porta */
 	servaddr.sin_port        	= htons(atoi(argv[1]));
-
+	/* vincula um socket a um endereco */
 	if(bind(listenfd, (SA *) &servaddr, sizeof(servaddr)) < 0)
 	{
 		Error::printError(bindSocket);
 		delete [] receivedDataBuffer;
 		return 0;
 	}
-
+	/* estipula a fila para o servidor */
 	if(listen(listenfd, MAXPENDING) < 0)
 	{
 		Error::printError(listenSocket);
 		delete [] receivedDataBuffer;
 		return 0;
 	}
-
+	/* laco do servidor */
 	while(true)
 	{
 		n = 0;
 		clientlen = sizeof(client);
-
+		/* aceita a conexao com o cliente */
 		if((connfd = accept(listenfd, (SA *) &client, &clientlen)) < 0)
 		{
 			Error::printError(acceptConnection);
@@ -103,6 +107,7 @@ int main(int argc, char** argv)
 
 		do
 		{
+			/* recebendo protocolo http do cliente */
 			n = recv(connfd, buffer, BUFFSIZE, 0);
 
 			if(n != -1)
@@ -123,15 +128,15 @@ int main(int argc, char** argv)
 		while (n == 1500);
 
 		cout << receivedDataBuffer;
-
+		/* parser http */
 		RequestHeader* requestHeader = ParserHTTP::execute(receivedDataBuffer);
 
 		bzero(receivedDataBuffer, receivedDataLength);
 
 		ServerLog::saveLog(requestHeader, inet_ntoa(client.sin_addr));
-
+		/* http request */
 		HTTP* http = new HTTP(requestHeader);
-
+		/* response */
 		char* responseText = http->execute(requestHeader);
 
 		/*Map::iterator it;
@@ -148,6 +153,7 @@ int main(int argc, char** argv)
 		int i;
 		int totalSent = 0;
 		char* auxStr = new char[BUFFSIZE];
+		/* toda a requisicao */
 		do
 		{
 			bzero(auxStr, BUFFSIZE);
