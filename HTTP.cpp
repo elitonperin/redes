@@ -5,22 +5,58 @@
 /* erro 400 bad request, requisicao nao atendida */
 char* HTTP::doBadRequest()
 {
-	strcpy(responseText, "HTTP/1.1 400 Bad Request\r\nContent-type: text/html\r\n\r\nBad Request");
+	char* charDataLength = new char[sizeof("%d")];
+
+	sprintf(charDataLength, "%d", (int) strlen("Bad Request"));
+
+	strcpy(responseText, "HTTP/1.1 400 Bad Request\r\nContent-type: text/html\r\nContent-Length: ");
+
+	strcat(responseText, charDataLength);
+
+	strcat(responseText, "\r\n\r\nBad Request");
+
 	responseLength = strlen(responseText);
+
+	delete [] charDataLength;
+
 	return responseText;
 }
 /* erro 505, versao do protocolo de requisicao nao suportada pelo servidor*/
 char* HTTP::doVersionNotSupported()
 {
-	strcpy(responseText, "HTTP/1.1 505 HTTP Version Not Supported\r\nContent-type: text/html\r\n\r\nVersion Not Supported");
+	char* charDataLength = new char[sizeof("%d")];
+
+	sprintf(charDataLength, "%d", (int) strlen("Version Not Supported"));
+
+	strcpy(responseText, "HTTP/1.1 505 HTTP Version Not Supported\r\nContent-type: text/html\r\nContent-Length: ");
+
+	strcat(responseText, charDataLength);
+
+	strcat(responseText, "\r\n\r\nVersion Not Supported");
+
 	responseLength = strlen(responseText);
+
+	delete [] charDataLength;
+
 	return responseText;
 }
 /* erro 404 bad request, requisicao nao atendida pelo servidor */
 char* HTTP::doNotFound()
 {
-	strcpy(responseText, "HTTP/1.1 404 Not Found\r\nContent-type: text/html\r\n\r\nNot Found");
+	char* charDataLength = new char[sizeof("%d")];
+
+	sprintf(charDataLength, "%d", (int) strlen("Not Found"));
+
+	strcpy(responseText, "HTTP/1.1 404 Not Found\r\nContent-type: text/html\r\nContent-Length: ");
+
+	strcat(responseText, charDataLength);
+
+	strcat(responseText, "\r\n\r\nNot Found");
+
 	responseLength = strlen(responseText);
+
+	delete [] charDataLength;
+
 	return responseText;
 }
 /* atendendo o get */

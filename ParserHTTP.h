@@ -35,7 +35,6 @@ class ParserHTTP
 		static RequestHeader* execute(string header)
 		{
 			RequestHeader* requestHeader;
-			char* path;
 			/*
 			Primeira linha:
 
