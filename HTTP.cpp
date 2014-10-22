@@ -92,8 +92,8 @@ char* HTTP::doPost()
 	while ((unsigned) i < requestHeader->messageBody.size());
 
 	strcat(htmlResponse, "</body></html>");
-
-	ofstream logFile(requestHeader->requestURI.c_str(), ios:: out);
+	string pathServidor = this->path + requestHeader->requestURI;
+	ofstream logFile(pathServidor.c_str(), ios:: out);
 	/* registrar log */
 	if (logFile.is_open())
 	{
