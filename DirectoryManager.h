@@ -6,6 +6,7 @@
 
 #include <dirent.h>
 #include <string>
+#include <sys/stat.h>
 
 using namespace std;
 class DirectoryManager
@@ -43,11 +44,23 @@ class DirectoryManager
 
 		}
 
+		bool isFile(const char* path) {
+		    struct stat buf;
+		    stat(path, &buf);
+		    return S_ISREG(buf.st_mode);
+		}
+
+		bool isDirectory(const char* path) {
+		    struct stat buf;
+		    stat(path, &buf);
+		    return S_ISDIR(buf.st_mode);
+		}
+
 		string createHTML()
 		{
 
 			string html = "<!DOCTYPE html>\n<body>\n<h1>Index of</h1>\n";
-
+			string aux;
 
 			while((directoryInfo = readdir(directoryPointer)))
 			{
@@ -56,7 +69,15 @@ class DirectoryManager
 				html+= "<li>";
 				html+="<a href=";
 				html+= directory;
+
+				aux = directory + directoryInfo->d_name;
+
+
 				html+= directoryInfo->d_name;
+				if(isDirectory(aux.c_str()))
+				{
+					html+='/';
+				}
 				html+=">";
 				html+=directoryInfo->d_name;
 				html+="</a>";
@@ -71,7 +92,5 @@ class DirectoryManager
 		{
 			closedir(directoryPointer);
 		}
-
-
 
 };

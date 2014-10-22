@@ -25,7 +25,7 @@
 #include <iostream>
 #include <stdlib.h>
 
-#define BUFFSIZE 1500
+#define BUFFSIZE 5000000
 
 using namespace std;
 
@@ -89,9 +89,9 @@ class HTTP
 
 		char* getData(int* dataLength);
 
-		bool isDirectory(const char* path);
+		static bool isDirectory(const char* path);
 
-		bool isFile(const char* path);
+		static bool isFile(const char* path);
 
 		char* doGetDirectory();
 

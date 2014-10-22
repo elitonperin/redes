@@ -149,42 +149,48 @@ int main(int argc, char** argv)
 		*/
 		cout << "\nResponse: \n" << responseText << endl;
 
-		n = 0;
-		int i;
-		int totalSent = 0;
-		char* auxStr = new char[BUFFSIZE];
-		/* toda a requisicao transmitida */
+//		n = 0;
+//		int i;
+//		int totalSent = 0;
+//		char* auxStr = new char[BUFFSIZE];
+//		/* toda a requisicao transmitida */
+//		do
+//		{
+//			bzero(auxStr, BUFFSIZE);
+//			if ((http->responseLength - totalSent) > BUFFSIZE)
+//			{
+//				for (i = totalSent; i < (totalSent + BUFFSIZE); i++)
+//					auxStr[i - totalSent] = responseText[i];
+//				n = send(connfd, auxStr, BUFFSIZE, 0);
+//			}
+//			else
+//			{
+//				for (i = totalSent; i < (http->responseLength - totalSent); i++)
+//					auxStr[i - totalSent] = responseText[i];
+//				n = send(connfd, auxStr, (http->responseLength - totalSent), 0);
+//			}
+//
+//			if(n != 1)
+//			{
+//				totalSent += n;
+//			}
+//			else
+//			{
+//				Error::printError(sendData);
+//				delete [] receivedDataBuffer;
+//				return 0;
+//			}
+//		}
+//		while (totalSent < http->responseLength);
+
 		do
 		{
-			bzero(auxStr, BUFFSIZE);
-			if ((http->responseLength - totalSent) > BUFFSIZE)
-			{
-				for (i = totalSent; i < (totalSent + BUFFSIZE); i++)
-					auxStr[i - totalSent] = responseText[i];
-				n = send(connfd, auxStr, BUFFSIZE, 0);
-			}
-			else
-			{
-				for (i = totalSent; i < (http->responseLength - totalSent); i++)
-					auxStr[i - totalSent] = responseText[i];
-				n = send(connfd, auxStr, (http->responseLength - totalSent), 0);
-			}
-
-			if(n != 1)
-			{
-				totalSent += n;
-			}
-			else
-			{
-				Error::printError(sendData);
-				delete [] receivedDataBuffer;
-				return 0;
-			}
+			n = send(connfd, responseText, BUFFSIZE, 0);
 		}
-		while (totalSent < http->responseLength);
+		while(n > 0);
 
-		cout << "\nTOTAL " << totalSent << endl;
-		cout << "\nRESPONSE LENGTH " << http->responseLength << endl;
+//		cout << "\nTOTAL " << totalSent << endl;
+//		cout << "\nRESPONSE LENGTH " << http->responseLength << endl;
 		cout << "\nTerminou\n";
 
 		close(connfd);
