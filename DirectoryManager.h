@@ -64,15 +64,16 @@ class DirectoryManager
 
 			while((directoryInfo = readdir(directoryPointer)))
 			{
+				aux = directory + directoryInfo->d_name;
 
 				cout << directoryInfo->d_name;
 				html+= "<li>";
+				if(isDirectory(aux.c_str()))
+				{
+					html+="/";
+				}
 				html+="<a href=";
 				html+= path;
-
-				aux = directory + directoryInfo->d_name;
-
-
 				html+= directoryInfo->d_name;
 				if(isDirectory(aux.c_str()))
 				{
