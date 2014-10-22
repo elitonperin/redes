@@ -2,29 +2,28 @@
 #include "HTTP.h"
 #endif
 
-
-
+/* erro 400 bad request, requisicao nao atendida */
 char* HTTP::doBadRequest()
 {
 	strcpy(responseText, "HTTP/1.1 400 Bad Request\r\nContent-type: text/html\r\n\r\nBad Request");
 	responseLength = strlen(responseText);
 	return responseText;
 }
-
+/* erro 505, versao do protocolo de requisicao nao suportada pelo servidor*/
 char* HTTP::doVersionNotSupported()
 {
 	strcpy(responseText, "HTTP/1.1 505 HTTP Version Not Supported\r\nContent-type: text/html\r\n\r\nVersion Not Supported");
 	responseLength = strlen(responseText);
 	return responseText;
 }
-
+/* erro 404 bad request, requisicao nao atendida pelo servidor */
 char* HTTP::doNotFound()
 {
 	strcpy(responseText, "HTTP/1.1 404 Not Found\r\nContent-type: text/html\r\n\r\nNot Found");
 	responseLength = strlen(responseText);
 	return responseText;
 }
-
+/* atendendo o get */
 char* HTTP::doGet()
 {
 	cout << "Entrei na doGet\n";
@@ -40,7 +39,7 @@ char* HTTP::doGet()
 	return doNotFound();
 }
 
-//todo:
+/* atendendo o post */
 char* HTTP::doPost()
 {
 	cout << "Entrei na doPost\n";
@@ -49,12 +48,13 @@ char* HTTP::doPost()
 	char* fieldResponse = new char[80];
 	char* htmlResponse = new char [500];
 	string ws = " ";
-
+	/* pegar o response html */
 	strcpy(htmlResponse, "<html><body>");
-
+	/* enquanto nao atender toda a requisicao */
 	do
 	{
 		j = 0;
+		/* nome do conteudo */
 		while(requestHeader->messageBody[i] != '=')
 		{
 			fieldName[j] = requestHeader->messageBody[i];
@@ -62,10 +62,11 @@ char* HTTP::doPost()
 			j++;
 		}
 		fieldName[j] = '\0';
-
 		i++;
 		j = 0;
+		/* exibir nome do conteudo header*/
 		cout << "\nFIELD NAME: " << fieldName;
+		/* conteudo response */
 		while(requestHeader->messageBody[i] != '&' && requestHeader->messageBody[i] != '\0')
 		{
 			if (requestHeader->messageBody[i] == '+')
@@ -77,7 +78,7 @@ char* HTTP::doPost()
 		}
 		fieldResponse[j] = '\0';
 		i++;
-
+		/* exibir conteudo response header */
 		cout << "\nFIELD RESPONSE: " << fieldResponse;
 		strcat(htmlResponse, fieldName);
 
@@ -92,7 +93,7 @@ char* HTTP::doPost()
 	strcat(htmlResponse, "</body></html>");
 
 	ofstream logFile(requestHeader->requestURI.c_str(), ios:: out);
-
+	/* registrar log */
 	if (logFile.is_open())
 	{
 		logFile << htmlResponse << endl;
@@ -106,7 +107,7 @@ char* HTTP::doPost()
 
 	return doGetFile();
 }
-
+/* pegar a data */
 char* HTTP::getData(int* dataLength)
 {
 	cout << "Entrei aqui na getData\n";
@@ -129,16 +130,15 @@ char* HTTP::getData(int* dataLength)
 
 		file.close();
 	}
-
 	return fileData;
 }
-
+/* verificar se eh arquivo */
 bool HTTP::isFile(const char* path) {
     struct stat buf;
     stat(path, &buf);
     return S_ISREG(buf.st_mode);
 }
-
+/* verificar se eh diretorio */
 bool HTTP::isDirectory(const char* path) {
     struct stat buf;
     stat(path, &buf);
@@ -146,9 +146,12 @@ bool HTTP::isDirectory(const char* path) {
 }
 
 //todo:
+/* manipular o arquivo */
 char* HTTP::doGetFile()
 {
 	cout << "Entrei na doGetFile\n";
+
+	/* pegar dados do header */
 	strcpy(responseText, "");
 
 	int dataLength;
@@ -192,23 +195,24 @@ char* HTTP::doGetFile()
 	cout << "Chegou2\n";
 
 	int strLength = strlen(responseText);
-
+	/* gerar resultados */
 	for (int i = 0; i < dataLength; i++)
 	{
 		responseText[i + strLength] = data[i];
 	}
 	cout << "Chegou3\n";
 	responseLength = strLength + dataLength;
-
+	/* desalocar memoria */
 	delete [] crlf;
 	delete [] type;
 	delete [] contentType;
 	delete [] charDataLength;
-
+	/* exibir resultados */
 	return responseText;
 }
 
 //todo:
+/* manipular o diretorio */
 char* HTTP::doGetDirectory()
 {
 	strcpy(responseText, "");
@@ -219,6 +223,8 @@ char* HTTP::doGetDirectory()
 	if(directoryManager.openDirectory(requestHeader->requestURI))
 	{
 		//directoryManager.printDirectory();
+
+		/* pegar dados */
 		string html =  directoryManager.createHTML();
 		directoryManager.closeDirectory();
 		char length[15];
@@ -226,7 +232,7 @@ char* HTTP::doGetDirectory()
 		string crlf = "\r\n";
 
 		string response;
-
+		/* response para o diretorio */
 		response = "HTTP/1.1 200 OK";
 		response += crlf;
 		response += "Content-Type: text/html";
@@ -237,12 +243,12 @@ char* HTTP::doGetDirectory()
 		response += crlf;
 		response += html;
 
-
+		/* exibir os resultados */
 		sprintf(responseText,"%s", response.c_str());
 		cout << responseText<<'\n';
 
 		responseLength = strlen(responseText);
-
+		/* exibir os resultados */
 		return responseText;
 	}
 	else

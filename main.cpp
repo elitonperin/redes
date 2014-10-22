@@ -28,6 +28,7 @@ Para executar: ./main [porta]
 /* define variaveis constantes e seus valores */
 #define MAXPENDING 5
 
+/* include dos arquivos */
 #ifndef _Error
 #include "Error.h"
 #endif
