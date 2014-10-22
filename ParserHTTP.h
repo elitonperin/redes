@@ -8,6 +8,7 @@
 
 #include <string>
 #include <iostream>
+#include <unistd.h>
 
 using namespace std;
 /**
@@ -17,6 +18,7 @@ using namespace std;
 class ParserHTTP
 {
 	public:
+
 
 		/*
 
@@ -33,6 +35,7 @@ class ParserHTTP
 		static RequestHeader* execute(string header)
 		{
 			RequestHeader* requestHeader;
+			char* path;
 			/*
 			Primeira linha:
 
@@ -75,8 +78,16 @@ class ParserHTTP
 				word += header[i];
 			i = ParserHTTP::skipTillLetter(i, header);
 
-			requestURI = word;
 
+			path = new char[500];
+		    getcwd(path, 255);
+		    strcat(path, "/www/");
+		    int pathLenght = strlen(path);
+
+			requestURI = path;
+
+			requestURI += word;	
+			
 			requestHeader = new RequestHeader(method, requestURI);
 
 			word = "";

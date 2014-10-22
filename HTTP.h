@@ -23,6 +23,7 @@
 #include <fstream>
 #include <sys/stat.h>
 #include <iostream>
+#include <unistd.h>
 #include <stdlib.h>
 
 #define BUFFSIZE 5000000
@@ -40,11 +41,17 @@ class HTTP
 
 		char* fileData;
 
+		char* path;
+
 		HTTP(RequestHeader* requestHeader)
 		{
 			this->requestHeader = requestHeader;
 			this->responseText = new char[99999999];
 			this->fileData = new char[99999999];
+			this->path = new char[500];
+		    getcwd(this->path, 255);
+		    strcat(this->path, "/www/");
+		    cout << this->path << endl;
 		}
 
 		char* execute(RequestHeader* requestHeader)

@@ -1300,3 +1300,45 @@ Method : GET
 URI Requested : /home/karan/Downloads/a.mp4
 Date and Time : 22-10-2014 - 12:27:32
 =======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home
+Date and Time : 22-10-2014 - 13:21:41
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 22-10-2014 - 13:22:02
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www/
+Date and Time : 22-10-2014 - 13:38:15
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www/
+Date and Time : 22-10-2014 - 13:39:01
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www//nova
+Date and Time : 22-10-2014 - 13:39:51
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www//home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www//nova..
+Date and Time : 22-10-2014 - 13:40:53
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www//home/eliton_perin/Downloads/TrabalhoDeRedes/Redes/redes/www//nova..
+Date and Time : 22-10-2014 - 13:41:22
+=======================================================
