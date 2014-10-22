@@ -6,23 +6,19 @@
 
 char* HTTP::doBadRequest()
 {
-	responseText = new char[BUFFSIZE];
 	strcpy(responseText, "HTTP/1.1 400 Bad Request\r\nContent-type: text/html\r\n\r\nBad Requestd");
 	return responseText;
 }
 
 char* HTTP::doVersionNotSupported()
 {
-	responseText = new char[BUFFSIZE];
 	strcpy(responseText, "HTTP/1.1 505 HTTP Version Not Supported\r\nContent-type: text/html\r\n\r\nVersion Not Supported");
 	return responseText;
 }
 
 char* HTTP::doNotFound()
 {
-	responseText = new char[BUFFSIZE];
-	strcpy(responseText, "HTTP/1.1 404 Not Found\r\nContent-type: text/html\r\n\r\nNot found");
-
+	strcpy(responseText, "HTTP/1.1 404 Not Found\r\nContent-type: text/html\r\n\r\nNot Found");
 	return responseText;
 }
 
@@ -45,16 +41,73 @@ char* HTTP::doGet()
 char* HTTP::doPost()
 {
 	cout << "Entrei na doPost\n";
-	char* responseText = new char[BUFFSIZE];
+	int i = 0, j = 0;
+	char* fieldName = new char[80];
+	char* fieldResponse = new char[80];
+	char* htmlResponse = new char [500];
+	string ws = " ";
 
-	return responseText;
+	strcat(htmlResponse, "<html><body>");
+
+	do
+	{
+		j = 0;
+		while(requestHeader->messageBody[i] != '=')
+		{
+			fieldName[j] = requestHeader->messageBody[i];
+			i++;
+			j++;
+		}
+		fieldName[j] = '\0';
+
+		i++;
+		j = 0;
+		cout << "\nFIELD NAME: " << fieldName;
+		while(requestHeader->messageBody[i] != '&' && requestHeader->messageBody[i] != '\0')
+		{
+			if (requestHeader->messageBody[i] == '+')
+				requestHeader->messageBody[i] = ws[0];
+
+			fieldResponse[j] = requestHeader->messageBody[i];
+			i++;
+			j++;
+		}
+		fieldResponse[j] = '\0';
+		i++;
+
+		cout << "\nFIELD RESPONSE: " << fieldResponse;
+		strcat(htmlResponse, fieldName);
+
+		strcat(htmlResponse, ": ");
+
+		strcat(htmlResponse, fieldResponse);
+
+		strcat(htmlResponse, "<br>");
+	}
+	while ((unsigned) i < requestHeader->messageBody.size());
+
+	strcat(htmlResponse, "</body></html>");
+
+	ofstream logFile(requestHeader->requestURI.c_str(), ios:: out);
+
+	if (logFile.is_open())
+	{
+		logFile << htmlResponse << endl;
+
+		logFile.close();
+	}
+
+	delete [] fieldName;
+	delete [] fieldResponse;
+	delete [] htmlResponse;
+
+	return doGetFile();
 }
 
-//todo:
 char* HTTP::getData(int* dataLength)
 {
 	cout << "Entrei aqui na getData\n";
-	fileData = new char[99999999];
+	strcpy(fileData, "");
 	char c;
 	ifstream file(requestHeader->requestURI.c_str(), ios::binary | ios::in);
 
@@ -93,8 +146,8 @@ bool HTTP::isDirectory(const char* path) {
 char* HTTP::doGetFile()
 {
 	cout << "Entrei na doGetFile\n";
-	responseText = new char[99999999];
-	cout << "Chegou\n";
+	strcpy(responseText, "");
+
 	int dataLength;
 
 	char* data = getData(&dataLength);
@@ -155,7 +208,7 @@ char* HTTP::doGetFile()
 //todo:
 char* HTTP::doGetDirectory()
 {
-	char* responseText = new char[BUFFSIZE];
+	strcpy(responseText, "");
 	//cout << "entrei na doGetDirectory\n";
 
 	DirectoryManager directoryManager;

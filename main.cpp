@@ -100,7 +100,6 @@ int main(int argc, char** argv)
 		}
 
 		receivedDataLength = 0;
-		strcpy(receivedDataBuffer,"");
 
 		do
 		{
@@ -123,9 +122,11 @@ int main(int argc, char** argv)
 		}
 		while (n == 1500);
 
-		printf("%s", receivedDataBuffer);
+		cout << receivedDataBuffer;
 
 		RequestHeader* requestHeader = ParserHTTP::execute(receivedDataBuffer);
+
+		bzero(receivedDataBuffer, receivedDataLength);
 
 		ServerLog::saveLog(requestHeader, inet_ntoa(client.sin_addr));
 
@@ -141,7 +142,6 @@ int main(int argc, char** argv)
 		}
 		cout << '\n';
 		*/
-
 		n = 0;
 		int i;
 		int totalSent = 0;
@@ -171,9 +171,6 @@ int main(int argc, char** argv)
 			}
 		}
 		while (totalSent < http->responseLength);
-
-//		delete [] http->responseText;
-//		delete [] http->fileData;
 
 		cout << "\nTerminou\n";
 

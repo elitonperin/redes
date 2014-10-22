@@ -43,6 +43,8 @@ class HTTP
 		HTTP(RequestHeader* requestHeader)
 		{
 			this->requestHeader = requestHeader;
+			this->responseText = new char[99999999];
+			this->fileData = new char[99999999];
 		}
 
 		char* execute(RequestHeader* requestHeader)

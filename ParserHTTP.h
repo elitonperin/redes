@@ -68,8 +68,7 @@ class ParserHTTP
 				word += header[i];
 			i = ParserHTTP::skipTillLetter(i, header);
 
-			if (word == "GET" || word == "POST")
-				method = word;
+			method = word;
 
 			word = "";
 			for ( ; header[i] != ' '; i++)
@@ -108,6 +107,7 @@ class ParserHTTP
 			}
 
 			word = "";
+			i = ParserHTTP::skipTillLetter(i, header);
 			for ( ; header[i] != '\0'; i++)
 				word += header[i];
 

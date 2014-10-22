@@ -13,7 +13,7 @@ class ServerLog
 	public:
 		static void saveLog(RequestHeader* requestHeader, char* clientIP)
 		{
-			fstream logFile("/home/douglas/serverLog.txt", ios:: out | ios::app);
+			fstream logFile("serverLog.txt", ios:: out | ios::app);
 
 			if (logFile.is_open())
 			{
