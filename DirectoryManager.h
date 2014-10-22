@@ -22,7 +22,7 @@ class DirectoryManager
 			directoryInfo = 0;
 			directoryPointer = 0;
 		}
-
+		/* abrir o diretorio */
 		bool openDirectory(string directory)
 		{
 			this->directory = directory;
@@ -34,7 +34,7 @@ class DirectoryManager
 			}
 			return true;
 		}
-
+		/* nome do diretorio */
 		void printDirectory()
 		{
 			while((directoryInfo = readdir(directoryPointer)))
@@ -43,23 +43,23 @@ class DirectoryManager
 			}
 
 		}
-
+		/* verifica se eh diretorio, pelo caminho */
 		bool isDirectory(const char* path) {
 		    struct stat buf;
 		    stat(path, &buf);
 		    return S_ISDIR(buf.st_mode);
 		}
 
+		/* criar o html */
 		string createHTML()
 		{
-
 			string html = "<!DOCTYPE html>\n<body>\n<h1>Index of</h1>\n";
 			string aux;
-
+			/* ponteiro para o diretorio */
 			while((directoryInfo = readdir(directoryPointer)))
 			{
 				aux = directory + directoryInfo->d_name;
-
+				/* pegar o nome do diretorio */
 				cout << directoryInfo->d_name;
 				html+= "<li>";
 				html+="<a href=";
@@ -80,7 +80,7 @@ class DirectoryManager
 			html += "</ul>\n</body>\n</html>\n";
 			return html;
 		}
-
+		/* fechar o diretorio, liberar memoria */
 		void closeDirectory()
 		{
 			closedir(directoryPointer);

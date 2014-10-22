@@ -9,14 +9,15 @@ using namespace std;
 class GetExtension
 {
 	public:
+		/* verifica a extensao dos arquivos */
 		static string getExtension(string path)
 		{
-
+			/* pega a string apos o "ponto" */
 			size_t pos = path.find(".");
 			string extension = path.substr(pos+1);
 			return extension;
 		}
-
+		/* tipos de extensoes/string possiveis */
 		static string getMIME(string type)
 		{
 			string contentType;
