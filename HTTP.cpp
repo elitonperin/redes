@@ -17,7 +17,7 @@ char* HTTP::doBadRequest()
 
 	responseLength = strlen(responseText);
 
-	delete [] charDataLength;
+	delete charDataLength;
 
 	return responseText;
 }
@@ -36,7 +36,7 @@ char* HTTP::doVersionNotSupported()
 
 	responseLength = strlen(responseText);
 
-	delete [] charDataLength;
+	delete charDataLength;
 
 	return responseText;
 }
@@ -55,7 +55,7 @@ char* HTTP::doNotFound()
 
 	responseLength = strlen(responseText);
 
-	delete [] charDataLength;
+	delete charDataLength;
 
 	return responseText;
 }
@@ -139,10 +139,10 @@ char* HTTP::doPost()
 
 	strcat(responseText, htmlResponse);
 
-	delete [] fieldName;
-	delete [] fieldResponse;
-	delete [] htmlResponse;
-	delete [] charDataLength;
+	delete fieldName;
+	delete fieldResponse;
+	delete htmlResponse;
+	delete charDataLength;
 
 	return responseText;
 }
@@ -243,10 +243,10 @@ char* HTTP::doGetFile()
 	cout << "Chegou3\n";
 	responseLength = strLength + dataLength;
 	/* desalocar memoria */
-	delete [] crlf;
-	delete [] type;
-	delete [] contentType;
-	delete [] charDataLength;
+	delete crlf;
+	delete type;
+	delete contentType;
+	delete charDataLength;
 	/* exibir resultados */
 	return responseText;
 }

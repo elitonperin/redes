@@ -66,7 +66,7 @@ int main(int argc, char** argv)
 	if((listenfd = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP)) < 0)
 	{
 		Error::printError(createSocket);
-		delete [] receivedDataBuffer;
+		delete receivedDataBuffer;
 		return 0;
 	}
 	/* populando os dados do servidor */
@@ -81,14 +81,14 @@ int main(int argc, char** argv)
 	if(bind(listenfd, (SA *) &servaddr, sizeof(servaddr)) < 0)
 	{
 		Error::printError(bindSocket);
-		delete [] receivedDataBuffer;
+		delete receivedDataBuffer;
 		return 0;
 	}
 	/* estipula a fila para o servidor */
 	if(listen(listenfd, MAXPENDING) < 0)
 	{
 		Error::printError(listenSocket);
-		delete [] receivedDataBuffer;
+		delete receivedDataBuffer;
 		return 0;
 	}
 	/* laco do servidor */
@@ -100,7 +100,7 @@ int main(int argc, char** argv)
 		if((connfd = accept(listenfd, (SA *) &client, &clientlen)) < 0)
 		{
 			Error::printError(acceptConnection);
-			delete [] receivedDataBuffer;
+			delete receivedDataBuffer;
 			return 0;
 		}
 
@@ -122,7 +122,7 @@ int main(int argc, char** argv)
 			else
 			{
 				Error::printError(receiveData);
-				delete [] receivedDataBuffer;
+				delete receivedDataBuffer;
 				return 0;
 			}
 		}
@@ -197,7 +197,7 @@ int main(int argc, char** argv)
 		close(connfd);
 	}
 
-	delete [] receivedDataBuffer;
+	delete receivedDataBuffer;
 
 	return 0;
 }
