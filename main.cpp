@@ -1,11 +1,12 @@
+/* bibliotecas */
 #include <stdio.h>          /* printf */
 #include <stdlib.h>         /* exit */
 #include <string.h>         /* bzero */
 #include <sys/socket.h>     /* recv, send */
 #include <arpa/inet.h>      /* struct sockaddr */
 #include <unistd.h>         /* exit */
-#include <signal.h>
-#include <sys/wait.h>
+#include <signal.h>			/* comunicacao entre processos */
+#include <sys/wait.h>		/* waitpid */
 
 /*
 Adicionar arquivos:
@@ -53,6 +54,7 @@ Para executar: ./main [porta]
 
 #define SA struct sockaddr
 
+/* thread status */
 void sig_chld(int sinal)
 {
 	pid_t pid;
@@ -62,14 +64,12 @@ void sig_chld(int sinal)
 	{
 		printf("filho %d terminou com estado %d.\n", pid, stat);
 	}
-
 	return;
 }
 
 /* funcao principal */
 int main(int argc, char** argv)
 {
-	//ErrorCode error;
 	/* variaveis locais */
 	int listenfd, connfd, n;
 	unsigned int clientlen;
@@ -81,7 +81,6 @@ int main(int argc, char** argv)
 		Error::printError(createSocket);
 		return 0;
 	}
-
 	char port[7];
 	if(argc == 2)
 	{
@@ -91,10 +90,7 @@ int main(int argc, char** argv)
 	{
 		strcpy(port, "8080");
 	}
-
 	/* populando os dados do servidor */
-
-
 	/* zera a estrutura que armazena os dados */
 	bzero(&servaddr, sizeof(servaddr));
 	servaddr.sin_family      	= AF_INET;
@@ -114,8 +110,8 @@ int main(int argc, char** argv)
 		Error::printError(listenSocket);
 		return 0;
 	}
-
-	signal(SIGCHLD, sig_chld); // trata os filho zumbis
+	/* trata os filhos zumbis */
+	signal(SIGCHLD, sig_chld);
 	/* laco do servidor */
 	int pid;
 	while(true)
@@ -130,68 +126,20 @@ int main(int argc, char** argv)
 		}
 		if((pid = fork()) == 0)
 		{
-
-
 			/* recebendo protocolo http do cliente */
 			if((n = recv(connfd, buffer, BUFFSIZE, 0)) == -1)
 			{
 				Error::printError(receiveData);
 				return 0;
 			}
-
 			/* parser http */
 			RequestHeader* requestHeader = ParserHTTP::execute(buffer);
-
 			ServerLog::saveLog(requestHeader, inet_ntoa(client.sin_addr));
 			/* http request */
 			HTTP* http = new HTTP(requestHeader);
 			/* response */
 			char* responseText = http->execute(requestHeader);
-
-			/*Map::iterator it;
-			cout << '\n';
-			for(it = requestHeader->headerFields.begin(); it != requestHeader->headerFields.end(); ++it)
-			{
-				cout << it->first << "=>" << it->second << '\n';
-			}
-			cout << '\n';
-			*/
 			cout << "\nResponse: \n" << responseText << endl;
-
-	//		n = 0;
-	//		int i;
-	//		int totalSent = 0;
-	//		char* auxStr = new char[BUFFSIZE];
-	//		/* toda a requisicao transmitida */
-	//		do
-	//		{
-	//			bzero(auxStr, BUFFSIZE);
-	//			if ((http->responseLength - totalSent) > BUFFSIZE)
-	//			{
-	//				for (i = totalSent; i < (totalSent + BUFFSIZE); i++)
-	//					auxStr[i - totalSent] = responseText[i];
-	//				n = send(connfd, auxStr, BUFFSIZE, 0);
-	//			}
-	//			else
-	//			{
-	//				for (i = totalSent; i < (http->responseLength - totalSent); i++)
-	//					auxStr[i - totalSent] = responseText[i];
-	//				n = send(connfd, auxStr, (http->responseLength - totalSent), 0);
-	//			}
-	//
-	//			if(n != 1)
-	//			{
-	//				totalSent += n;
-	//			}
-	//			else
-	//			{
-	//				Error::printError(sendData);
-	//				delete [] receivedDataBuffer;
-	//				return 0;
-	//			}
-	//		}
-	//		while (totalSent < http->responseLength);
-
 			do
 			{
 				if (http->responseLength < BUFFSIZE)
@@ -200,16 +148,9 @@ int main(int argc, char** argv)
 					n = send(connfd, responseText, BUFFSIZE, 0);
 			}
 			while(n > 0);
-
-//			cout << "\nTOTAL " << totalSent << endl;
-//			cout << "\nRESPONSE LENGTH " << http->responseLength << endl;
 			cout << "\nTerminou\n";
 		}
-
-
-
 		close(connfd);
 	}
-
 	return 0;
 }
