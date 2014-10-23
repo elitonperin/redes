@@ -51,7 +51,6 @@ class HTTP
 			this->path = new char[500];
 		    getcwd(this->path, 255);
 		    strcat(this->path, "/www/");
-		    cout << this->path << endl;
 		}
 
 		char* execute(RequestHeader* requestHeader)

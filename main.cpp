@@ -6,6 +6,7 @@
 #include <unistd.h>         /* exit */
 #include <signal.h>
 #include <sys/wait.h>
+#include <pthread.h>
 
 /*
 Adicionar arquivos:
@@ -53,6 +54,8 @@ Para executar: ./main [porta]
 
 #define SA struct sockaddr
 
+pthread_mutex_t mutex;
+
 void sig_chld(int sinal)
 {
 	pid_t pid;
@@ -78,6 +81,9 @@ int main(int argc, char** argv)
 	int receivedDataLength;
 	char* receivedDataBuffer = new char[1024000];
 	/* funcao para especificar o tipo do protocolo */
+
+	pthread_mutex_init(&mutex, NULL);
+
 	if((listenfd = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP)) < 0)
 	{
 		Error::printError(createSocket);
@@ -165,8 +171,9 @@ int main(int argc, char** argv)
 			RequestHeader* requestHeader = ParserHTTP::execute(receivedDataBuffer);
 
 			bzero(receivedDataBuffer, receivedDataLength);
-
+			pthread_mutex_lock(&mutex);
 			ServerLog::saveLog(requestHeader, inet_ntoa(client.sin_addr));
+    		pthread_mutex_unlock(&mutex);
 			/* http request */
 			HTTP* http = new HTTP(requestHeader);
 			/* response */

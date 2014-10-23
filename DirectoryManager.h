@@ -66,7 +66,6 @@ class DirectoryManager
 			{
 				aux = directory + directoryInfo->d_name;
 
-				cout << directoryInfo->d_name;
 				html+= "<li>";
 				if(isDirectory(aux.c_str()))
 				{

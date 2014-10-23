@@ -291,6 +291,7 @@ char* HTTP::doGetDirectory()
 
 		/* exibir os resultados */
 		sprintf(responseText,"%s", response.c_str());
+		cout << path + requestHeader->requestURI << endl;
 		cout << responseText<<'\n';
 
 		responseLength = strlen(responseText);
