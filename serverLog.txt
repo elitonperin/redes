@@ -8230,3 +8230,1545 @@ Method : GET
 URI Requested : /
 Date and Time : 23-10-2014 - 13:00:20
 =======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:15:44
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 23-10-2014 - 15:15:47
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /template-info.js
+Date and Time : 23-10-2014 - 15:15:48
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:15:52
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /index.html
+Date and Time : 23-10-2014 - 15:15:55
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edgePreload.js
+Date and Time : 23-10-2014 - 15:15:56
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:15:56
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:15:56
+=======================================================
+Request Received
+Request Received
+IP: 10.88.5.225
+IP: 10.88.5.225
+Method : GET
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:15:56
+Date and Time : 23-10-2014 - 15:15:56
+=======================================================
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:15:56
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:15:57
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:15:57
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:15:57
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /images/placeholderImage.png
+Request Received
+IP: 10.88.5.225
+Date and Time : 23-10-2014 - 15:15:57
+Method : GET
+=======================================================
+URI Requested : /images/Ani_300x300.png
+Date and Time : 23-10-2014 - 15:15:57
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /images/arrow.png
+Date and Time : 23-10-2014 - 15:15:57
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:01
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /b.html
+Date and Time : 23-10-2014 - 15:16:03
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:08
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /folder.png
+Date and Time : 23-10-2014 - 15:16:10
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:13
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Resumo.pdf
+Date and Time : 23-10-2014 - 15:16:16
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:28
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /post.html
+Date and Time : 23-10-2014 - 15:16:31
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:33
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 23-10-2014 - 15:16:33
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : POST
+URI Requested : /post_response.html
+Date and Time : 23-10-2014 - 15:16:34
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:37
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /index.html
+Date and Time : 23-10-2014 - 15:16:40
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edgePreload.js
+Date and Time : 23-10-2014 - 15:16:40
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:16:40
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:16:40
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Request Received
+IP: 10.88.5.35
+Date and Time : 23-10-2014 - 15:16:40
+Method : GET
+=======================================================
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:16:40
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /1.jpg
+Date and Time : 23-10-2014 - 15:16:40
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:16:40
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:16:41
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:16:41
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:16:41
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /images/placeholderImage.png
+Date and Time : 23-10-2014 - 15:16:42
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /images/arrow.png
+Date and Time : 23-10-2014 - 15:16:42
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:43
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 23-10-2014 - 15:16:45
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:46
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:46
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /images/
+Date and Time : 23-10-2014 - 15:16:49
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:52
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /01.mp3
+Date and Time : 23-10-2014 - 15:16:52
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /01.mp3
+Date and Time : 23-10-2014 - 15:16:53
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /images/placeholderImage.png
+Date and Time : 23-10-2014 - 15:16:53
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:54
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:55
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:55
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:16:55
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /images/Ani_300x300.png
+Date and Time : 23-10-2014 - 15:16:57
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /post.html
+Date and Time : 23-10-2014 - 15:16:58
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /images/arrow.png
+Date and Time : 23-10-2014 - 15:17:00
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /index.html
+Date and Time : 23-10-2014 - 15:17:02
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edgePreload.js
+Date and Time : 23-10-2014 - 15:17:02
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:17:02
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:17:02
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:17:02
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:17:02
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:17:03
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:17:03
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:17:03
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:17:04
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /images/placeholderImage.png
+Date and Time : 23-10-2014 - 15:17:04
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /images/arrow.png
+Date and Time : 23-10-2014 - 15:17:04
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /index.html
+Date and Time : 23-10-2014 - 15:17:10
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edgePreload.js
+Date and Time : 23-10-2014 - 15:17:10
+=======================================================
+Request Received
+Request Received
+IP: 10.88.5.35
+IP: 10.88.5.35
+Method : GET
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:17:10
+=======================================================
+Date and Time : 23-10-2014 - 15:17:10
+=======================================================
+Date and Time : 23-10-2014 - 15:17:10
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:17:10
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:17:11
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:17:11
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:17:11
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:17:11
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /images/placeholderImage.png
+Date and Time : 23-10-2014 - 15:17:11
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /images/Ani_300x300.png
+Date and Time : 23-10-2014 - 15:17:11
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /images/arrow.png
+Date and Time : 23-10-2014 - 15:17:11
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 23-10-2014 - 15:17:16
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/index.html
+Date and Time : 23-10-2014 - 15:17:17
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+Request Received
+Request Received
+IP: 10.88.5.35
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/css/style.css
+Method : GET
+URI Requested : /Htmls/css/social-icons.css
+URI Requested : /Htmls/js/jquery-1.5.1.min.js
+Date and Time : 23-10-2014 - 15:17:17
+=======================================================
+Date and Time : 23-10-2014 - 15:17:17
+=======================================================
+Date and Time : 23-10-2014 - 15:17:17
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/js/custom.js
+Date and Time : 23-10-2014 - 15:17:17
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/js/poshytip-1.0/src/tip-yellowsimple/tip-yellowsimple.css
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/js/prettyPhoto/css/prettyPhoto.css
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/css/superfish.css
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/js/poshytip-1.0/src/tip-twitter/tip-twitter.css
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/css/tabs.css
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/css/jquery.tweet.css
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/js/jquery.backgroundPosition.js
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/js/poshytip-1.0/src/jquery.poshytip.min.js
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/js/superfish-1.4.8/js/hoverIntent.js
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/js/superfish-1.4.8/js/superfish.js
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/js/superfish-1.4.8/js/supersubs.js
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/js/tweet/jquery.tweet.js
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/js/prettyPhoto/js/jquery.prettyPhoto.js
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/js/slides.min.jquery.js
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/js/tabs.js
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/img/dummies/04.jpg
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/img/dummies/t-01.jpg
+Request Received
+IP: 10.88.5.35
+Date and Time : 23-10-2014 - 15:17:18
+Method : GET
+=======================================================
+URI Requested : /Htmls/img/dummies/03.jpg
+Request Received
+Date and Time : 23-10-2014 - 15:17:18
+IP: 10.88.5.35
+=======================================================
+Method : GET
+URI Requested : /Htmls/img/dummies/02.jpg
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/img/logo.png
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/img/dummies/t-02.jpg
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/img/dummies/01.jpg
+Date and Time : 23-10-2014 - 15:17:18
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/a.html
+Date and Time : 23-10-2014 - 15:17:22
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /1.jpg
+Date and Time : 23-10-2014 - 15:17:22
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /index.html
+Date and Time : 23-10-2014 - 15:17:28
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edgePreload.js
+Date and Time : 23-10-2014 - 15:17:28
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:17:28
+=======================================================
+Request Received
+Request Received
+IP: 10.88.5.35
+IP: 10.88.5.35
+Method : GET
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:17:28
+=======================================================
+Date and Time : 23-10-2014 - 15:17:28
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:17:29
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:17:29
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:17:29
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:17:29
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:17:30
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /images/placeholderImage.png
+Date and Time : 23-10-2014 - 15:17:30
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /images/Ani_300x300.png
+Date and Time : 23-10-2014 - 15:17:30
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /images/arrow.png
+Date and Time : 23-10-2014 - 15:17:30
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:17:37
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /1.jpg
+Date and Time : 23-10-2014 - 15:17:40
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Resumo.pdf
+Date and Time : 23-10-2014 - 15:17:41
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:17:46
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /images/
+Date and Time : 23-10-2014 - 15:17:49
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /images/Ani_300x300.png
+Date and Time : 23-10-2014 - 15:17:51
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:17:56
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /images/
+Date and Time : 23-10-2014 - 15:17:58
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:17:59
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Resumo.pdf
+Date and Time : 23-10-2014 - 15:18:01
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:18:05
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /d2.mp4
+Date and Time : 23-10-2014 - 15:18:07
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /d2.mp4
+Date and Time : 23-10-2014 - 15:18:08
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:18:21
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:18:23
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:18:23
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /b.html
+Date and Time : 23-10-2014 - 15:18:24
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /post.html
+Date and Time : 23-10-2014 - 15:18:27
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : POST
+URI Requested : /post_response.html
+Date and Time : 23-10-2014 - 15:18:29
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:18:33
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /nova/
+Date and Time : 23-10-2014 - 15:18:35
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /nova/1.jpg
+Date and Time : 23-10-2014 - 15:18:37
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /nova/
+Date and Time : 23-10-2014 - 15:18:41
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:18:42
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 23-10-2014 - 15:18:42
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:18:43
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /1.jpg
+Date and Time : 23-10-2014 - 15:18:47
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /index.html
+Date and Time : 23-10-2014 - 15:18:47
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /ArticleBrowser_edgePreload.js
+Date and Time : 23-10-2014 - 15:18:47
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:18:47
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:18:47
+=======================================================
+Request Received
+Request Received
+IP: 10.88.5.226
+IP: 10.88.5.226
+Method : GET
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:18:47
+Date and Time : 23-10-2014 - 15:18:47
+=======================================================
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:18:49
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:18:49
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:18:50
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:18:50
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /images/placeholderImage.png
+Date and Time : 23-10-2014 - 15:18:50
+=======================================================
+Request Received
+Request Received
+IP: 10.88.5.226
+IP: 10.88.5.226
+Method : GET
+Method : GET
+URI Requested : /images/Ani_300x300.png
+URI Requested : /images/arrow.png
+Date and Time : 23-10-2014 - 15:18:50
+Date and Time : 23-10-2014 - 15:18:50
+=======================================================
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:18:54
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /index.html
+Date and Time : 23-10-2014 - 15:18:56
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edgePreload.js
+Date and Time : 23-10-2014 - 15:18:56
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Request Received
+Request Received
+IP: 10.88.5.225
+IP: 10.88.5.225
+Method : GET
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:18:56
+=======================================================
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:18:56
+=======================================================
+Date and Time : 23-10-2014 - 15:18:56
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:18:56
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:18:57
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:18:57
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:18:58
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /post.html
+Date and Time : 23-10-2014 - 15:19:00
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /images/arrow.png
+Date and Time : 23-10-2014 - 15:19:02
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /images/placeholderImage.png
+Date and Time : 23-10-2014 - 15:19:02
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /images/Ani_300x300.png
+Date and Time : 23-10-2014 - 15:19:02
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /Resumo.pdf
+Date and Time : 23-10-2014 - 15:19:07
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:19:17
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /1.jpg
+Date and Time : 23-10-2014 - 15:19:17
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /index.html
+Date and Time : 23-10-2014 - 15:19:19
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edgePreload.js
+Date and Time : 23-10-2014 - 15:19:19
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:19:19
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:19:19
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:19:19
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:19:23
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:19:24
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /thumb.png
+Date and Time : 23-10-2014 - 15:19:41
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /index.html
+Date and Time : 23-10-2014 - 15:19:44
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /ArticleBrowser_edgePreload.js
+Date and Time : 23-10-2014 - 15:19:44
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:19:45
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:19:45
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:19:45
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:19:45
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:19:50
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:19:51
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:19:52
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:20:02
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /thumb.png
+Date and Time : 23-10-2014 - 15:20:04
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:20:09
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:20:09
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 23-10-2014 - 15:20:12
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/index.html
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/js/jquery-1.5.1.min.js
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/js/jquery.backgroundPosition.js
+Request Received
+Request Received
+IP: 10.88.5.225
+Date and Time : 23-10-2014 - 15:20:15
+IP: 10.88.5.225
+Method : GET
+Method : GET
+=======================================================
+URI Requested : /Htmls/js/custom.js
+URI Requested : /Htmls/css/style.css
+Date and Time : 23-10-2014 - 15:20:15
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/css/social-icons.css
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/css/superfish.css
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/js/superfish-1.4.8/js/hoverIntent.js
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/js/poshytip-1.0/src/jquery.poshytip.min.js
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/css/jquery.tweet.css
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/css/tabs.css
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/js/prettyPhoto/css/prettyPhoto.css
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/js/superfish-1.4.8/js/superfish.js
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/js/superfish-1.4.8/js/supersubs.js
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/js/tabs.js
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/js/slides.min.jquery.js
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/js/tweet/jquery.tweet.js
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/js/prettyPhoto/js/jquery.prettyPhoto.js
+Date and Time : 23-10-2014 - 15:20:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/img/dummies/04.jpg
+Date and Time : 23-10-2014 - 15:20:16
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/img/dummies/02.jpg
+Date and Time : 23-10-2014 - 15:20:16
+=======================================================
+Request Received
+Request Received
+IP: 10.88.5.225
+Request Received
+Method : GET
+IP: 10.88.5.225
+URI Requested : /Htmls/img/dummies/01.jpg
+IP: 10.88.5.225
+Method : GET
+Method : GET
+URI Requested : /Htmls/img/dummies/t-01.jpg
+URI Requested : /Htmls/img/dummies/t-02.jpg
+Date and Time : 23-10-2014 - 15:20:16
+Date and Time : 23-10-2014 - 15:20:16
+=======================================================
+=======================================================
+Date and Time : 23-10-2014 - 15:20:16
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/img/dummies/03.jpg
+Date and Time : 23-10-2014 - 15:20:16
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 23-10-2014 - 15:20:21
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:20:23
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/
+Date and Time : 23-10-2014 - 15:21:30
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /Htmls/a.html
+Date and Time : 23-10-2014 - 15:21:31
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /1.jpg
+Date and Time : 23-10-2014 - 15:21:31
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /1.jpg
+Date and Time : 23-10-2014 - 15:21:36
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /01.mp3
+Date and Time : 23-10-2014 - 15:21:40
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /01.mp3
+Date and Time : 23-10-2014 - 15:21:40
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /nova/
+Date and Time : 23-10-2014 - 15:21:46
+=======================================================
+Request Received
+IP: 10.88.5.35
+Method : GET
+URI Requested : /nova/1.jpg
+Date and Time : 23-10-2014 - 15:21:47
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /index.html
+Date and Time : 23-10-2014 - 15:21:51
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edgePreload.js
+Date and Time : 23-10-2014 - 15:21:51
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:21:51
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:21:51
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:21:51
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:21:51
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /edge_includes/jquery-1.7.1.min.js
+Date and Time : 23-10-2014 - 15:21:52
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /edge_includes/edge.2.0.0.min.js
+Date and Time : 23-10-2014 - 15:21:52
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edge.js
+Date and Time : 23-10-2014 - 15:21:53
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /ArticleBrowser_edgeActions.js
+Date and Time : 23-10-2014 - 15:21:53
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /images/placeholderImage.png
+Date and Time : 23-10-2014 - 15:21:53
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /images/Ani_300x300.png
+Date and Time : 23-10-2014 - 15:21:53
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /images/arrow.png
+Date and Time : 23-10-2014 - 15:21:53
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 15:22:40
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /d2.mp4
+Date and Time : 23-10-2014 - 15:22:43
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /d2.mp4
+Date and Time : 23-10-2014 - 15:22:43
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /d2.mp4
+Date and Time : 23-10-2014 - 15:22:57
+=======================================================
+Request Received
+IP: 10.88.5.226
+Method : GET
+URI Requested : /d2.mp4
+Date and Time : 23-10-2014 - 15:22:57
+=======================================================
