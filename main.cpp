@@ -218,12 +218,15 @@ int main(int argc, char** argv)
 
 			do
 			{
-				n = send(connfd, responseText, BUFFSIZE, 0);
+				if (http->responseLength < BUFFSIZE)
+					n = send(connfd, responseText, http->responseLength, 0);
+				else
+					n = send(connfd, responseText, BUFFSIZE, 0);
 			}
 			while(n > 0);
 
-	//		cout << "\nTOTAL " << totalSent << endl;
-	//		cout << "\nRESPONSE LENGTH " << http->responseLength << endl;
+//			cout << "\nTOTAL " << totalSent << endl;
+//			cout << "\nRESPONSE LENGTH " << http->responseLength << endl;
 			cout << "\nTerminou\n";
 		}
 

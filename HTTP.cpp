@@ -159,6 +159,9 @@ char* HTTP::getData(int* dataLength)
 	*dataLength = file.tellg();
 	file.seekg (0, file.beg);
 
+	if (*dataLength > BUFFSIZE)
+		*dataLength = BUFFSIZE;
+
 	if (file.is_open())
 	{
 		for (int i = 0; i < *dataLength; i++)
@@ -235,6 +238,9 @@ char* HTTP::doGetFile()
 	cout << "Chegou2\n";
 
 	int strLength = strlen(responseText);
+
+	if (dataLength > (BUFFSIZE - strLength))
+		dataLength = BUFFSIZE - strLength;
 	/* gerar resultados */
 	for (int i = 0; i < dataLength; i++)
 	{
