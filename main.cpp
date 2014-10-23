@@ -8,26 +8,6 @@
 #include <signal.h>			/* comunicacao entre processos */
 #include <sys/wait.h>		/* waitpid */
 
-/*
-Adicionar arquivos:
-	git add .
-	git commit -m hue
-	git push -u origin master
-
-Pegar:
-	git pull origin master
-*/
-/*
- http://127.0.0.1:8081 -> GET /
-
- http://127.0.0.1:8081/home/karan/Documents/teste.txt -> GET /home/karan/Documents/teste.txt
- * */
-
-/*
-Para compilar: g++ -Wall -std=c++11 -o main main.cpp
-Para executar: ./main [porta]
-*/
-
 /* define variaveis constantes e seus valores */
 #define MAXPENDING 5
 
@@ -64,9 +44,9 @@ void sig_chld(int sinal)
 	{
 		printf("filho %d terminou com estado %d.\n", pid, stat);
 	}
+
 	return;
 }
-
 /* funcao principal */
 int main(int argc, char** argv)
 {
@@ -81,6 +61,7 @@ int main(int argc, char** argv)
 		Error::printError(createSocket);
 		return 0;
 	}
+
 	char port[7];
 	if(argc == 2)
 	{
