@@ -75,13 +75,10 @@ int main(int argc, char** argv)
 	unsigned int clientlen;
 	char buffer[BUFFSIZE];
 	struct sockaddr_in servaddr, client;
-	int receivedDataLength;
-	char* receivedDataBuffer = new char[1024000];
 	/* funcao para especificar o tipo do protocolo */
 	if((listenfd = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP)) < 0)
 	{
 		Error::printError(createSocket);
-		delete receivedDataBuffer;
 		return 0;
 	}
 
@@ -109,14 +106,12 @@ int main(int argc, char** argv)
 	if(bind(listenfd, (SA *) &servaddr, sizeof(servaddr)) < 0)
 	{
 		Error::printError(bindSocket);
-		delete receivedDataBuffer;
 		return 0;
 	}
 	/* estipula a fila para o servidor */
 	if(listen(listenfd, MAXPENDING) < 0)
 	{
 		Error::printError(listenSocket);
-		delete receivedDataBuffer;
 		return 0;
 	}
 
@@ -131,40 +126,21 @@ int main(int argc, char** argv)
 		if((connfd = accept(listenfd, (SA *) &client, &clientlen)) < 0)
 		{
 			Error::printError(acceptConnection);
-			delete receivedDataBuffer;
 			return 0;
 		}
 		if((pid = fork()) == 0)
 		{
-			receivedDataLength = 0;
 
-			do
+
+			/* recebendo protocolo http do cliente */
+			if((n = recv(connfd, buffer, BUFFSIZE, 0)) == -1)
 			{
-				/* recebendo protocolo http do cliente */
-				n = recv(connfd, buffer, BUFFSIZE, 0);
-
-				if(n != -1)
-				{
-					for (int i = 0; i < n; i++)
-					{
-						receivedDataBuffer[i + receivedDataLength] = buffer[i];
-					}
-					receivedDataLength += n;
-				}
-				else
-				{
-					Error::printError(receiveData);
-					delete receivedDataBuffer;
-					return 0;
-				}
+				Error::printError(receiveData);
+				return 0;
 			}
-			while (n == 1500);
 
-			cout << receivedDataBuffer;
 			/* parser http */
-			RequestHeader* requestHeader = ParserHTTP::execute(receivedDataBuffer);
-
-			bzero(receivedDataBuffer, receivedDataLength);
+			RequestHeader* requestHeader = ParserHTTP::execute(buffer);
 
 			ServerLog::saveLog(requestHeader, inet_ntoa(client.sin_addr));
 			/* http request */
@@ -234,8 +210,6 @@ int main(int argc, char** argv)
 
 		close(connfd);
 	}
-
-	delete receivedDataBuffer;
 
 	return 0;
 }

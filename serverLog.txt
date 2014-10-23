@@ -11692,3 +11692,201 @@ Method : GET
 URI Requested : /Midia/1.jpg
 Date and Time : 23-10-2014 - 16:07:43
 =======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 16:11:08
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Midia/
+Date and Time : 23-10-2014 - 16:11:10
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 16:11:13
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /index.html
+Date and Time : 23-10-2014 - 16:11:14
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Midia/1.jpg
+Date and Time : 23-10-2014 - 16:11:14
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 16:15:08
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /index.html
+Date and Time : 23-10-2014 - 16:15:41
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Midia/1.jpg
+Date and Time : 23-10-2014 - 16:15:41
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 16:15:46
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Midia/
+Date and Time : 23-10-2014 - 16:15:49
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Midia/Ani_300x300.png
+Date and Time : 23-10-2014 - 16:15:50
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Midia/
+Date and Time : 23-10-2014 - 16:16:04
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Midia/d2.mp4
+Date and Time : 23-10-2014 - 16:16:07
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Midia/d2.mp4
+Date and Time : 23-10-2014 - 16:16:08
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 16:17:10
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 23-10-2014 - 16:17:10
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Midia/
+Date and Time : 23-10-2014 - 16:17:12
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Midia/d2.mp4
+Date and Time : 23-10-2014 - 16:17:13
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Midia/d2.mp4
+Date and Time : 23-10-2014 - 16:17:13
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 16:17:14
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /favicon.ico
+Date and Time : 23-10-2014 - 16:17:14
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Midia/Ani_300x300.png
+Date and Time : 23-10-2014 - 16:17:15
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Midia/
+Date and Time : 23-10-2014 - 16:17:16
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Midia/01.mp3
+Date and Time : 23-10-2014 - 16:17:17
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Midia/01.mp3
+Date and Time : 23-10-2014 - 16:17:17
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Midia/01.mp3
+Date and Time : 23-10-2014 - 16:17:17
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Midia/01.mp3
+Date and Time : 23-10-2014 - 16:17:17
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 16:17:22
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Midia/1.jpg
+Date and Time : 23-10-2014 - 16:17:22
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /index.html
+Date and Time : 23-10-2014 - 16:17:24
+=======================================================
+Request Received
+IP: 10.88.5.225
+Method : GET
+URI Requested : /Midia/1.jpg
+Date and Time : 23-10-2014 - 16:17:24
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 16:17:27
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 16:17:29
+=======================================================
