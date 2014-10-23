@@ -1,8 +1,10 @@
+/* arquivos necessarios */
 #ifndef _Error
 #define _Error
 #endif
 
-#include<stdio.h>
+/* bibliotecas */
+#include <stdio.h>
 
 /* estrutura dos erros */
 typedef enum ErrorCode
@@ -50,9 +52,6 @@ class Error
 					printf("Error: Não foi possível abrir o arquivo\n");
 				case openDir:
 					printf("Error: Não foi possível abrir o diretório\n");
-
-
 			}
-
 		}
 };

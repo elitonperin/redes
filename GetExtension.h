@@ -1,22 +1,27 @@
+/* aruivos necessarios */
 #ifndef _GetExtension
 #define _GetExtension
 #endif
 
+/* bibliotecas */
 #include <string>
 #include <iostream>
 
 using namespace std;
+
+/* verificar a extensao dos arquivos*/
 class GetExtension
 {
 	public:
+		/* le o que estiver apos o "ponto", como extensao */
 		static string getExtension(string path)
 		{
-
 			size_t pos = path.find(".");
 			string extension = path.substr(pos+1);
 			return extension;
 		}
 
+		/* tipos de extensoes que o servidor pode exibir*/
 		static string getMIME(string type)
 		{
 			string contentType;
@@ -165,4 +170,3 @@ class GetExtension
 			return contentType;
 		}
 };
-

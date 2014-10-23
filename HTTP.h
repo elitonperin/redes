@@ -1,3 +1,4 @@
+/* arquivos necessarios */
 #ifndef _HTTP
 #define _HTTP
 #endif
@@ -18,6 +19,7 @@
 #include "DirectoryManager.h"
 #endif
 
+/* bibliotecas */
 #include <string>
 #include <string.h>
 #include <fstream>
@@ -26,23 +28,21 @@
 #include <unistd.h>
 #include <stdlib.h>
 
+/* tamanbo max do BUFF*/
 #define BUFFSIZE 8000000
 
 using namespace std;
 
+/* http request */
 class HTTP
 {
 	public:
 		RequestHeader* requestHeader;
-
 		int responseLength;
-
 		char* responseText;
-
 		char* fileData;
-
 		char* path;
-
+		/* estrutura da http request */
 		HTTP(RequestHeader* requestHeader)
 		{
 			this->requestHeader = requestHeader;
@@ -53,13 +53,11 @@ class HTTP
 		    strcat(this->path, "/www/");
 		    cout << this->path << endl;
 		}
-
+		/* executando o request http */
 		char* execute(RequestHeader* requestHeader)
 		{
-
 			if(requestHeader->HTTPVersion == "HTTP/1.1")
 			{
-
 				if(requestHeader->method == "GET")
 				{
 					return this->doGet();
@@ -68,6 +66,7 @@ class HTTP
 				{
 					return this->doPost();
 				}
+				/* erro para atender a request */
 				else
 				{
 					Error::printError(badRequest);
@@ -79,29 +78,17 @@ class HTTP
 				Error::printError(versionNotSupported);
 				return doVersionNotSupported();
 			}
-
 			Error::printError(badRequest);
 			return doBadRequest();
 		}
-
 		char* doBadRequest();
-
 		char* doVersionNotSupported();
-
 		char* doNotFound();
-
 		char* doGet();
-
 		char* doPost();
-
 		char* getData(int* dataLength);
-
 		static bool isDirectory(const char* path);
-
 		static bool isFile(const char* path);
-
 		char* doGetDirectory();
-
 		char* doGetFile();
-
 };
