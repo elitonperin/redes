@@ -7474,3 +7474,45 @@ Method : GET
 URI Requested : /
 Date and Time : 23-10-2014 - 10:41:20
 =======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 10:45:44
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /Resumo.pdf
+Date and Time : 23-10-2014 - 10:45:56
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /ArticleBrowser.an
+Date and Time : 23-10-2014 - 10:46:03
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /index.html~
+Date and Time : 23-10-2014 - 10:46:08
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /ArticleBrowser/ArticleBrowser_edgePreload.js
+Date and Time : 23-10-2014 - 10:46:08
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /nova/
+Date and Time : 23-10-2014 - 10:46:15
+=======================================================
+Request Received
+IP: 127.0.0.1
+Method : GET
+URI Requested : /
+Date and Time : 23-10-2014 - 10:46:17
+=======================================================
