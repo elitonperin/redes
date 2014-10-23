@@ -69,14 +69,27 @@ int main(int argc, char** argv)
 		delete receivedDataBuffer;
 		return 0;
 	}
+
+	char port[7];
+	if(argc == 2)
+	{
+		strcpy(port, argv[1]);
+	}
+	else
+	{
+		strcpy(port, "8080");
+	}
+
 	/* populando os dados do servidor */
+
+
 	/* zera a estrutura que armazena os dados */
 	bzero(&servaddr, sizeof(servaddr));
 	servaddr.sin_family      	= AF_INET;
 	/* aceita qualquer fixa de IP que a maquina possa responder */
 	servaddr.sin_addr.s_addr 	= htonl(INADDR_ANY);
 	/* define a porta */
-	servaddr.sin_port        	= htons(atoi(argv[1]));
+	servaddr.sin_port        	= htons(atoi(port));
 	/* vincula um socket a um endereco */
 	if(bind(listenfd, (SA *) &servaddr, sizeof(servaddr)) < 0)
 	{
